@@ -1,0 +1,3086 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for a Star Wars character",
+    "line": 1,
+    "id": "search-for-a-star-wars-character",
+    "tags": [],
+    "uri": "e2e/features/search-person.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-first-name",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Search person by first name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Han\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full name \"Han Solo\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the birth year \"29BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-first-name",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search person by first name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Darth\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full name \"Darth Vader\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the birth year \"41.9BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the eye color \"yellow\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see the skin color \"white\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-first-name",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Search person by first name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Mon\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full name \"Mon Mothma\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the birth year \"48BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the eye color \"blue\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-first-name",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search person by first name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Shmi\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full name \"Shmi Skywalker\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the birth year \"72BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-last-name",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Search person by last name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I search for \"Solo\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see the full name \"Han Solo\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the birth year \"29BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-last-name",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Search person by last name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I search for \"Vader\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see the full name \"Darth Vader\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the birth year \"41.9BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see the eye color \"yellow\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I see the skin color \"white\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-last-name",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Search person by last name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I search for \"Mothma\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see the full name \"Mon Mothma\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the birth year \"48BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see the eye color \"blue\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-last-name",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Search person by last name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I search for \"Skywalker\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see the full name \"Shmi Skywalker\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the birth year \"72BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-full-name",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Search person by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I search for \"Han Solo\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I see the full name \"Han Solo\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see the birth year \"29BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-full-name",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Search person by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I search for \"Darth Vader\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I see the full name \"Darth Vader\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see the birth year \"41.9BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the eye color \"yellow\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I see the skin color \"white\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-full-name",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Search person by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I search for \"Mon Mothma\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I see the full name \"Mon Mothma\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see the birth year \"48BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the eye color \"blue\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-full-name",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Search person by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I search for \"Shmi Skywalker\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I see the full name \"Shmi Skywalker\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see the birth year \"72BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Search person by partial name and clear search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I search for \"Ha\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I see the full name \"Han Solo\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I see the birth year \"29BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I search for \" \" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Search person by partial name and clear search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I search for \"Da\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I see the full name \"Darth Vader\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I see the birth year \"41.9BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I see the eye color \"yellow\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I see the skin color \"white\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I search for \" \" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Search person by partial name and clear search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I search for \"Mot\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I see the full name \"Mon Mothma\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I see the birth year \"48BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I see the eye color \"blue\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I search for \" \" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-person-by-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Search person by partial name and clear search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I search for \"Sky\" and press enter",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I see the full name \"Shmi Skywalker\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I see the gender \"female\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I see the birth year \"72BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I search for \" \" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-for-planet-returns-no-results",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Search for planet returns no results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I search for \"Han Solo\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I see the full name \"Han Solo\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I see the gender \"male\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "I see the birth year \"29BBY\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "I see the eye color \"brown\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I see the skin color \"fair\"",
+            "match": {
+              "location": "e2e/steps/search-person.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "I search for \"Han Solo\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "there are no results found",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-unknown-person",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "Search unknown person",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "I search for \"Michael Jackson\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "there are no results found",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Search for a Star Wars planet",
+    "line": 1,
+    "id": "search-for-a-star-wars-planet",
+    "tags": [],
+    "uri": "e2e/features/search-planet.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-planet;search-planet-by-full-name",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Search planet by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Nal Hutta\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full planet name \"Nal Hutta\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the population \"7000000000\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the climate \"temperate\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the gravity \"1 standard\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-planet-by-full-name",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Search planet by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Dagobah\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full planet name \"Dagobah\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the population \"unknown\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the climate \"murky\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the gravity \"N/A\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-planet-by-full-name",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search planet by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Chandrila\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full planet name \"Chandrila\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the population \"1200000000\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the climate \"temperate\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the gravity \"1\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-planet-by-full-name",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Search planet by full name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"Tholoth\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the full planet name \"Tholoth\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the population \"unknown\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the climate \"unknown\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I see the gravity \"unknown\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-planet-by-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Search planet by partial name and clear search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I search for \"Nal\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I see the full planet name \"Nal Hutta\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I see the population \"7000000000\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the climate \"temperate\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the gravity \"1 standard\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I search for \" \" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-for-planet-returns-no-results",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Search for planet returns no results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I search for \"Dagobah\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I see the full planet name \"Dagobah\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I see the population \"unknown\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I see the climate \"murky\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I see the gravity \"N/A\"",
+            "match": {
+              "location": "e2e/steps/search-planet.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I search on \"People\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I search for \"Dagobah\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "there are no results found",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-unknown-person",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Search unknown person",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I search on \"Planets\"",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I search for \"Earth\" and click on the search button",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "there are no results found",
+            "match": {
+              "location": "e2e/steps/search-form.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
